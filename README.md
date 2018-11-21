@@ -30,19 +30,19 @@ The description of each scripts workings as follows.
 + ```i.save('pngs/{}.png'.format(fn))``` is saving the ```i``` image object in the folder ```png``` with the name ```fn```.png
 
 
-## 2. image resizer
+## 2. Image resizer
 By applying method ```.thumbnail(_)``` in the ```Image Object``` with a tuple ```(300,300)``` we can change the image sizes. We saved these images in a seperate folder named ```300```. 
 + ```i.thumbnail(size_700)``` is resizing the images to 700px by 700 pixel images using the tuple ```size_700 = (700, 700)```
 + ```i.save('700/{}_700.{}'.format(fn, fext))``` is saving the image in folder ```700/``` with the name ```original_700.same_extention```
 
-## 3. do rotate
+## 3. Do rotate
 It is fairly easy. We just need to apply ```.rotate(degree)``` method to the image object.
 ```python
 image1 = Image.open('pup6.jpg')
 image1.rotate(90).save('pup6_BW.jpg')
 ```
 Note: We are also saving the image in current folder with ```pup6_BW.jpg``` name.
-## 4. turn black and white
+## 4. Turn black and white
 It is also easy, no fancy tricks. Just need to apply ```.convert(mode='L')``` method to the image object.
 ```python
 image1 = Image.open('pup6.jpg')
@@ -60,11 +60,11 @@ We applied ```GaussianBlur``` with ```15``` radius using the ```ImageFilter.Gaus
 # Reference
 https://pillow.readthedocs.io/en/3.1.x/reference/Image.html
 
-# Folder Structure
+# My Folder Structure
 
-- Demo
--- pngs
--- 300
--- 700
--- ['1. Convert jpg to png.py', '2. Image resizer.py', '3. Do rotate.py', '300', '4. Turn black and white.py', '5. Turn blur.py', '700', 'pngs', 'pup1.jpg', 'pup2.jpg', 'pup3.jpg', 'pup4.jpg', 'pup5.png', 'pup6.jpg']
+###### Demo
+###### --> pngs
+###### --> 300
+###### --> 700
+###### --= ['1. Convert jpg to png.py', '2. Image resizer.py', '3. Do rotate.py', '300', '4. Turn black and white.py', '5. Turn blur.py', '700', 'pngs', 'pup1.jpg', 'pup2.jpg', 'pup3.jpg', 'pup4.jpg', 'pup5.png', 'pup6.jpg']
 
