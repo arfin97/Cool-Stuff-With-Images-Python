@@ -68,3 +68,4 @@ https://pillow.readthedocs.io/en/3.1.x/reference/Image.html
 ###### --> 700
 ###### --= ['1. Convert jpg to png.py', '2. Image resizer.py', '3. Do rotate.py', '300', '4. Turn black and white.py', '5. Turn blur.py', '700', 'pngs', 'pup1.jpg', 'pup2.jpg', 'pup3.jpg', 'pup4.jpg', 'pup5.png', 'pup6.jpg']
 
+©Arfin
