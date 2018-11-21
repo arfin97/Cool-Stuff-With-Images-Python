@@ -2,7 +2,7 @@ from PIL import Image
 import os
 
 for file in os.listdir('.'):
-	print(os.listdir('.'))
+
 	if file.endswith('.jpg'):
 
 		i = Image.open(file)
