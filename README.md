@@ -1,5 +1,5 @@
 # Introduction
-======
+=
 This is a repository where I've accumulated all the codes and their their cheet sheet relating for image processsing in python usile *Pillow* library. This is more like a reference for my own learning path. You might also find it useful. Let's dig in..
 
 # To run the scripts
