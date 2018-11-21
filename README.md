@@ -8,6 +8,7 @@ Also you'll need to set up a folder structure that suits the code. I have given 
 
 # Installing Pillow
 Use the command: 
+'''
 pip install pillow
-
+'''
 # 
